@@ -90,48 +90,7 @@ CREATE TABLE `ctransactions` (
 -- Dumping data for table `ctransactions`
 --
 
-INSERT INTO `ctransactions` (`id`, `fname`, `lname`, `regnum`, `date`, `foodsold`, `amount`) VALUES
-(1, 'tawanda', 'nyahuye', 'c16129380p', ' 07-10-2017', 'SADZA', 17.5),
-(2, 'Tee ', 'Franklin', 'C1655544433', ' 12-10-2017', 'SADZA', 2),
-(3, 'Tee ', 'Franklin', 'C1655544433', ' 12-10-2017', 'SADZA', 2),
-(4, 'tawanda', 'nyahuye', 'c16129380p', ' 16-10-2017', 'SADZA', 7),
-(5, 'tawanda', 'nyahuye', 'C16129380P', ' 24-10-2017', 'SADZA', 17.5),
-(6, 'aaron ', 'mayendesa', 'c16128647j', ' 24-10-2017', 'SADZA', 2),
-(7, 'aaron ', 'mayendesa', 'c16128647j', ' 24-10-2017', 'TEA', 0.5),
-(8, 'tawanda', 'nyahuye', 'C16129380P', ' 24-10-2017', 'SADZA, RICE', 17.5),
-(9, 'tawanda', 'nyahuye', 'c16129380p', ' 24-10-2017', 'SADZA, TEA', 17.5),
-(10, 'tawanda', 'nyahuye', 'c16129380p', ' 24-10-2017', 'SADZA, TEA', 17.5),
-(11, 'tawanda', 'nyahuye', 'C16129380P', ' 24-10-2017', 'SADZA, RICE AND TEA', 17.5),
-(12, 'tawanda', 'nyahuye', 'C16129380P', ' 24-10-2017', 'TEA', 0.5),
-(13, 'tawanda', 'nyahuye', 'C16129380P', ' 24-10-2017', 'RICE', 2),
-(14, 'tawanda', 'nyahuye', 'C16129380P', ' 24-10-2017', 'RICE', 1.5),
-(15, 'tawanda', 'nyahuye', 'c16129380p', ' 24-10-2017', 'RICE ,TEA', 1.5),
-(16, 'tawanda', 'nyahuye', 'c16129380p', ' 24-10-2017', 'SADZA, RICE AND TEA', 17.5),
-(17, 'tawanda', 'nyahuye', 'c16129380p', ' 24-10-2017', 'SADZA', 7),
-(18, 'tawanda', 'nyahuye', 'c16129380p', ' 24-10-2017', 'SADZA', 7),
-(19, 'tawanda', 'nyahuye', 'c16129380p', ' 24-10-2017', 'SADZA', 7),
-(20, 'tawanda', 'nyahuye', 'c16129380p', ' 24-10-2017', 'SADZA', 5),
-(21, 'tawanda', 'nyahuye', 'c16129380p', ' 24-10-2017', 'SADZA', 4),
-(22, 'tawanda', 'nyahuye', 'c16129380p', '2017-10-24', 'SADZA', 1),
-(23, 'tawanda', 'nyahuye', 'c16129380p', '2017-10-30', 'TEA', 4.5),
-(24, 'tawanda', 'nyahuye', 'c16129380p', '2017-10-31', 'SADZA', 6),
-(25, 'tawanda', 'nyahuye', 'c16129380p', '2017-10-31', 'SADZA', 7),
-(26, 'linky', 'magidi', 'c1551781n', '2017-11-01', 'SADZA', 10),
-(27, 'linky', 'magidi', 'c1551781n', '2017-11-01', 'SADZA', 5),
-(28, 'linky', 'magidi', 'c1551781n', '2017-11-02', 'SADZA', 5),
-(29, 'aaron ', 'mayendesa', 'c16128647j', '2017-11-10', 'SADZA', 1),
-(30, 'aaron ', 'mayendesa', 'c16128647j', '2017-11-10', 'SADZA', 1.8e24),
-(31, 'aaron ', 'mayendesa', 'c16128647j', '2017-11-10', 'SADZA', 6.299999999999999e24),
-(32, 'aaron ', 'mayendesa', 'c16128647j', '2017-11-10', 'SADZA', 9e23),
-(33, 'aaron ', 'mayendesa', 'c16128647j', '2017-11-10', 'SADZA', 400000),
-(34, 'aaron ', 'mayendesa', 'c16128647j', '2017-11-10', 'SADZA', 600000),
-(35, 'aaron ', 'mayendesa', 'c16128647j', '2017-11-10', 'SADZA', 1000000),
-(36, 'aaron ', 'mayendesa', 'c16128647j', '2017-11-10', 'SADZA', 1000000),
-(37, 'aaron ', 'mayendesa', 'c16128647j', '2017-11-10', 'SADZA', 1000000),
-(38, 'aaron ', 'mayendesa', 'c16128647j', '2017-11-10', 'SADZA', 1000000),
-(39, 'aaron ', 'mayendesa', 'c16128647j', '2017-11-10', 'SADZA', 1000000),
-(40, 'linky', 'magidi', 'c1551781n', '2017-11-29', 'SADZA', 4),
-(41, 'tawanda', 'nyahuye', 'c16129380p', '2018-06-18', 'SADZA ,TEA', 17);
+
 
 -- --------------------------------------------------------
 
@@ -152,16 +111,6 @@ CREATE TABLE `customers` (
 -- Dumping data for table `customers`
 --
 
-INSERT INTO `customers` (`fname`, `lname`, `gender`, `phone`, `regnum`, `amount`) VALUES
-('linky', 'magidi', 'MALE', '+263778545334', 'c1551781n', 1),
-('Albert ', 'chisoro', 'MALE', '+263784797749', 'c16128159f', 0),
-('partson', 'zunza', 'Male', '+263771596971', 'c16128459x', 77),
-('aaron ', 'mayendesa', 'MALE', '+263776824461', 'c16128647j', 1470395008),
-('Bruce', 'Gwara', 'Male', '+263778838728', 'c16128868g', 0),
-('tawanda', 'nyahuye', 'Male', '+263778612578', 'c16129380p', 1194.5),
-('tawaz', 'nyahuye', 'MALE', '+263778612578', 'mr tawaz', 0);
-
--- --------------------------------------------------------
 
 --
 -- Table structure for table `food`
@@ -214,29 +163,7 @@ CREATE TABLE `password` (
 -- Dumping data for table `password`
 --
 
-INSERT INTO `password` (`regnum`, `password`) VALUES
-('mr tawaz', '88'),
-('mr tawaz', '44'),
-('MR TAWAZ', '36'),
-('mr tawaz', '820'),
-('mr tawaz', '25587'),
-('mr tawaz', '9382'),
-('mr tawaz', '39574'),
-('mr tawaz', '24715'),
-('mr tawaz', '62628'),
-('mr tawaz', '96917'),
-('c16128159f', '9153'),
-('mr tawaz', '88'),
-('mr tawaz', '44'),
-('MR TAWAZ', '36'),
-('mr tawaz', '820'),
-('mr tawaz', '25587'),
-('mr tawaz', '9382'),
-('mr tawaz', '39574'),
-('mr tawaz', '24715'),
-('mr tawaz', '62628'),
-('mr tawaz', '96917'),
-('c16128159f', '9153');
+
 
 -- --------------------------------------------------------
 
@@ -253,13 +180,7 @@ CREATE TABLE `prices` (
 -- Dumping data for table `prices`
 --
 
-INSERT INTO `prices` (`ftype`, `price`) VALUES
-('SADZA', 2),
-('RICE', 1),
-('TEA', 0.5),
-('SADZA', 2),
-('RICE', 1),
-('TEA', 0.5);
+
 
 -- --------------------------------------------------------
 
@@ -276,17 +197,6 @@ CREATE TABLE `stock` (
 -- Dumping data for table `stock`
 --
 
-INSERT INTO `stock` (`name`, `cost`) VALUES
-('mealie meal', 80),
-('meat', 2),
-('rice', 50),
-('cooking oil', 20),
-('szlt', 67),
-('mealie meal', 80),
-('meat', 2),
-('rice', 50),
-('cooking oil', 20),
-('szlt', 67);
 
 -- --------------------------------------------------------
 
@@ -322,9 +232,6 @@ CREATE TABLE `student` (
 -- Dumping data for table `student`
 --
 
-INSERT INTO `student` (`rollno`, `name`, `city`) VALUES
-(1, 'tawaz', 'chinhoyi'),
-(2, 'part', 'harare');
 
 -- --------------------------------------------------------
 
@@ -343,8 +250,7 @@ CREATE TABLE `super_admin` (
 -- Dumping data for table `super_admin`
 --
 
-INSERT INTO `super_admin` (`id`, `name`, `surname`, `password`) VALUES
-(1, 'Tawanda', 'Nyahuye', 'tawaz');
+
 
 -- --------------------------------------------------------
 
@@ -367,25 +273,6 @@ CREATE TABLE `transactions` (
 -- Dumping data for table `transactions`
 --
 
-INSERT INTO `transactions` (`id`, `fname`, `lname`, `admin_id`, `date`, `foodsold`, `sold_to`, `amount`) VALUES
-(1, 'tawanda', 'nyahuye', 'c16129380p', '2017-10-24', 'SADZA', 'c16129380p', 1),
-(2, 'Tawanda', 'Nyahuye', 'tawanda_001', '2017-10-30', 'TEA', 'c16129380p', 4.5),
-(3, 'Tawanda', 'Nyahuye', 'tawanda_001', '2017-10-31', 'SADZA', 'c16129380p', 6),
-(4, 'tatenda', 'majengwa', 'tatenda_001', '2017-10-31', 'SADZA', 'c16129380p', 7),
-(5, 'Tawanda', 'Nyahuye', 'tawanda_001', '2017-11-02', 'SADZA', 'c1551781n', 5),
-(6, 'Tawanda', 'Nyahuye', 'tawanda_001', '2017-11-10', 'SADZA', 'c16128647j', 1),
-(7, 'Tawanda', 'Nyahuye', 'tawanda_001', '2017-11-10', 'SADZA', 'c16128647j', 1.8e24),
-(8, 'Tawanda', 'Nyahuye', 'tawanda_001', '2017-11-10', 'SADZA', 'c16128647j', 6.299999999999999e24),
-(9, 'Tawanda', 'Nyahuye', 'tawanda_001', '2017-11-10', 'SADZA', 'c16128647j', 9e23),
-(10, 'Tawanda', 'Nyahuye', 'tawanda_001', '2017-11-10', 'SADZA', 'c16128647j', 400000),
-(11, 'Tawanda', 'Nyahuye', 'tawanda_001', '2017-11-10', 'SADZA', 'c16128647j', 600000),
-(12, 'Tawanda', 'Nyahuye', 'tawanda_001', '2017-11-10', 'SADZA', 'c16128647j', 1000000),
-(13, 'Tawanda', 'Nyahuye', 'tawanda_001', '2017-11-10', 'SADZA', 'c16128647j', 1000000),
-(14, 'Tawanda', 'Nyahuye', 'tawanda_001', '2017-11-10', 'SADZA', 'c16128647j', 1000000),
-(15, 'Tawanda', 'Nyahuye', 'tawanda_001', '2017-11-10', 'SADZA', 'c16128647j', 1000000),
-(16, 'Tawanda', 'Nyahuye', 'tawanda_001', '2017-11-10', 'SADZA', 'c16128647j', 1000000),
-(17, 'Tawanda', 'Nyahuye', 'tawanda_001', '2017-11-29', 'SADZA', 'c1551781n', 4),
-(18, 'tatenda', 'majengwa', 'tatenda_001', '2018-06-18', 'SADZA ,TEA', 'c16129380p', 17);
 
 --
 -- Indexes for dumped tables
