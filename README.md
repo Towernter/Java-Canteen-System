@@ -2,4 +2,4 @@
 
 >This is a Java GUI Canteen system
 
-The datbase **canteen2.sql**
+The datbase **canteen.sql**
